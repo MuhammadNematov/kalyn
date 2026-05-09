@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-image: url(./img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+}
+.q1{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    position: relative;
+}
+.q2{
+    display: flex;
+    gap: 30px;
+}
+.q3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+.qq1{
+    background-color: #9B51E0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px ;
+}
+.qq2{
+    background-color: rgba(202, 202, 202, 0.262);
+    padding: 20px 10px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.qq3{
+    display: flex;
+    gap: 5px;
+    font-weight: 700;
+}
