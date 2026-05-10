@@ -8,12 +8,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 650px;
+    height: 750px;
 }
 .q1{
     display: flex;
     color: white;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 150px;
     position: relative;
 }
 .q2{
@@ -43,4 +44,81 @@
     display: flex;
     gap: 5px;
     font-weight: 700;
+}
+.qq4{
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    top: px;
+}
+.q4{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 30px;
+}
+.w1{
+    width: 360px;
+}
+.qb{
+    border: 3px solid white;
+    color: white;
+    background-color: #F2994A;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+}
+.qh1{
+    color: white;
+}
+.qimg{
+    width: 700px;
+    position: relative;
+    bottom: 200px;
+
+}
+@media (max-width:510px) {
+    .header{
+        width: 100%;
+
+        position: absolute;
+    }
+    .q1{
+        width: 100%;
+        gap: 70px;
+        position: relative;
+    }
+    .q3{
+        display: none;
+    }
+    .qq2{
+        display: none;
+    }
+    .qq4{
+        position: relative;
+        left: -1px;
+        left: 10px;
+        width: 20%;
+    }
+    .q4{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .qimg{
+        width: 100%;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .w1{
+        position: relative;
+        bottom: 350px;
+        text-align: center;
+        margin: auto;
+    }
+    .qb{
+        width: 90%;
+        
+        margin: auto;
+    }
+    
 }
