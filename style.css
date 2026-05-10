@@ -77,11 +77,33 @@
     bottom: 200px;
 
 }
+.order{
+    width: 300px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+   
+  
+}
+.block1{
+    display: flex;
+    justify-content: space-evenly;
+     border-bottom: solid 2px rgba(0, 0, 0, 0.319);
+     padding: 30px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    position: relative;
+    left: -130px;
+    bottom: 20px;
+}
 @media (max-width:510px) {
     .header{
         width: 100%;
 
-        position: absolute;
+        position: relative;
     }
     .q1{
         width: 100%;
@@ -113,12 +135,23 @@
         position: relative;
         bottom: 350px;
         text-align: center;
-        margin: auto;
+        margin: 0 auto;
     }
     .qb{
         width: 90%;
         
         margin: auto;
+    }
+    .p1{
+        display: none;
+    }
+    .block1{
+        width: 86%;
+        flex-direction: column;
+        border-bottom: solid 2px gainsboro;
+        margin: auto;
+        
+        
     }
     
 }
