@@ -138,11 +138,111 @@
     gap: 20px;
     padding: 30px;
 }
+.d12{
+    width: 200px;
+    height: 200px;
+   
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.d22{
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 100px;
+    margin: auto;
+
+
+}
+.d33{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.768);
+    background-color: white;
+    border-radius: 10px;
+}
+.d44{
+    width: 180px;
+    position: relative;
+    left: -25px;
+    bottom: 30px;
+
+    
+}
+.block3{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.345), rgba(255, 255, 255, 0.416)), url(./img/dinner-set-sushi-rolls-salads-cocktails-hookah-side-view\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+.s1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    gap: 20px;
+}
+.f12{
+    background-color: #F2994A;
+    color: white;
+    border: solid 3px white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 670px;
+    display: flex;
+    align-items: center;
+}
+.covid{
+    width: 80%;
+    height: 120px;
+    background-image: url(./img/Mask\ Group\ \(4\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.sec4{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.e2{
+    width: 450px;
+    height: 250px;
+    font-size: 15px;
+    text-align: center;
+}
+.e3{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.496);
+}
 @media (max-width:510px) {
     .header{
         width: 100%;
 
         position: relative;
+    }
+    .covid{
+        width: 80%;
+        height: 280px;
     }
     .q1{
         width: 100%;
@@ -185,18 +285,54 @@
         display: none;
     }
     .block1{
+        
         width: 86%;
         flex-direction: column;
         border-bottom: solid 2px gainsboro;
         margin: auto;
     }
     .block2{
-        width: 100%;
+        width: 74%;
         flex-direction: column;
         margin: auto;
     }
     .d1{
-        width: 310px;
+        width: 90%;
+        margin: auto;
         height: 250px;
+    }
+    .block3{
+        flex-direction: column;
+        width: 100%;
+        height: 1220px;
+
+    }
+    .s1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        
+    }
+    .d12{
+        width: 42%;
+    }
+    .f10{
+        width: 60%;
+        margin: auto;
+    }
+    .f12{
+        width: 40%;
+        text-align: center;
+        display: block;
+    }
+    .sec4{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .e2{
+        width: 90%;
+        margin-top: 20px;
     }
 }
